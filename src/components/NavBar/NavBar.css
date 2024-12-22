@@ -1,0 +1,19 @@
+ul li{
+    width: 90px;
+    text-align: center;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: red;
+
+    cursor: pointer;
+    transition: .5s;
+}
+
+ul li:hover{
+    background-color: blueviolet;
+}
+
+.active{
+    font-weight: bold;
+    background-color: blueviolet;
+}
