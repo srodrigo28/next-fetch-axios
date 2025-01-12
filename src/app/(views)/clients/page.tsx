@@ -27,7 +27,7 @@ export default function Clients(){
 
 return(
     <div>
-        <h1 className="text-center mb-3">Total: {posts.length}</h1>
+        <h1 className="text-center mb-3">Total Registros: {posts.length}</h1>
         <div className="flex flex-col gap-4 mx-5">
             {posts.map((post: any) => (
                 <div key={post.id} className="bg-gray-400 p-4 rounded-md">
