@@ -1,0 +1,13 @@
+{
+  "clientes": [],
+  "endereco": [
+    {
+      "id": "f7f2",
+      "cep": "74961070",
+      "city": "GO",
+      "state": "GO",
+      "street": "Rua 5",
+      "neighborhood": "Jardim Tiradentes"
+    }
+  ]
+}
