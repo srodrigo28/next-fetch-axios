@@ -4,10 +4,18 @@
     {
       "id": "f7f2",
       "cep": "74961070",
-      "city": "GO",
+      "city": "Aparecida de Goiânia",
       "state": "GO",
       "street": "Rua 5",
       "neighborhood": "Jardim Tiradentes"
+    },
+    {
+      "id": "f3d5",
+      "cep": "13994899",
+      "city": "Espírito Santo do Pinhal",
+      "state": "SP",
+      "street": "Área Rural",
+      "neighborhood": "Área Rural de Espírito Santo do Pinhal"
     }
   ]
 }

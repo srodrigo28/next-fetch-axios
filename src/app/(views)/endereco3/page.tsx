@@ -2,6 +2,7 @@
 
 import axios from "axios";
 import { FormEvent, useState } from "react";
+// import { useRouter } from 'next/router'
 
 interface Address{
   cep: string;
@@ -12,6 +13,7 @@ interface Address{
 }
 
 export default function StreeAxios2() {
+  // const router = useRouter()
 
   // controle de estados dos campos
   const [ cep, setCep ] = useState("")
@@ -31,8 +33,6 @@ export default function StreeAxios2() {
     setState(res.data.state)
     setStreet(res.data.street), 
     setNeighborhood(res.data.neighborhood)
-
-    console.log(cep)
   }
 
   // cadastrando com Axios-API
@@ -43,6 +43,8 @@ export default function StreeAxios2() {
     axios.post(url, { 
       cep, city, state, street, neighborhood 
     })
+
+    // router.push("/clientes")
     alert('Cadastrado com sucesso')
   }
 

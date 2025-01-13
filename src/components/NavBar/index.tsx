@@ -23,7 +23,7 @@ export function NavBar(){
             <Link href="/endereco3">Axios 2</Link>
           </li>
           <li className={``}>
-            <Link href="/clients">Clientes</Link>
+            <Link href="/clientes">Clientes</Link>
           </li>
         </ul>
     )

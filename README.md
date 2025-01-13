@@ -7,14 +7,10 @@
 
 #### Crud Json
 
-* rodando api
+#### rodando api
 ```
 npx json-server db.json  --port 8080
 ```
-
-npm i @react-input/mask
-
-npm i react-toastify
 
 npm i axios
 

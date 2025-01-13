@@ -1,6 +1,7 @@
 'use client'
 
 import { FormEvent, useState } from "react";
+// import { useRouter } from 'next/router'
 
 interface Address{
   cep: string;
@@ -11,6 +12,7 @@ interface Address{
 }
 
 export default function StreetFetch() {
+  // const router = useRouter()
 
   // controle de estados dos campos
   const [ address, setAddress ] = useState<Address>(
@@ -53,6 +55,7 @@ export default function StreetFetch() {
         method: "POST",  
         body: JSON.stringify( address )
       })
+    // router.push("")
     alert('Cadastrado com sucesso')
   }
 
